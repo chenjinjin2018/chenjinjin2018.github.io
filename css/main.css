@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff82b3;
+  background: #8eff9f;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2606,6 +2606,10 @@ hr {
 .main-inner {
   margin-top: 80px;
 }
+.posts-expand header.post-header h1 {
+  font-family: "Libian SC";
+  font-size: 36px;
+}
 .header {
   background: #f5f5f5;
 }
@@ -2839,6 +2843,61 @@ hr {
 }
 .post-button a:hover {
   border-bottom-color: #222;
+}
+.post-body p {
+  display: flex;
+  border-bottom: 1px solid #eee;
+  font-size: 16px;
+  flex-wrap: wrap;
+}
+.post-body p h1 {
+  display: flex;
+  border-bottom: 1px solid #eee;
+  font-size: 16px;
+}
+.post,
+h1 {
+  font-size: 16px;
+  margin: 0 10px 0 0;
+  padding: 0;
+  display: inline-block;
+}
+h2 {
+  font-size: 14px;
+  color: #aaa;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+.post-body p a {
+  color: #555;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  word-wrap: break-word;
+  width: calc((100% - 20px) / 4);
+  min-width: calc((100% - 20px) / 4);
+  margin-right: 5px;
+}
+header.post-header {
+  text-align: center;
+}
+.art .post-body p a {
+  color: #555;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  word-wrap: break-word;
+  width: calc((50% - 10px) / 2);
+  min-width: calc((50% - 10px) / 2);
+  margin-right: 5px;
+}
+.art .post-body p a:first-child {
+  width: 50%;
+  min-width: 50%;
+}
+.art .post-body p a:last-child {
+  margin-right: 0;
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
