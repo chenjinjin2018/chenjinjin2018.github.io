@@ -1457,6 +1457,11 @@ pre .javascript .function {
   word-break: break-word;
   font-weight: 400;
 }
+
+@font-face {
+  font-family: libian;
+  src:url(../font/libian.ttf);
+}
 .posts-expand .post-title-link {
   display: inline-block;
   position: relative;
@@ -1464,6 +1469,8 @@ pre .javascript .function {
   border-bottom: none;
   line-height: 1.2;
   vertical-align: top;
+  font-family: libian;
+  font-size: 48px;
 }
 .posts-expand .post-title-link::before {
   content: "";
